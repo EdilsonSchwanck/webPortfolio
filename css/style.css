@@ -1,0 +1,154 @@
+/*sobre a minha navbar*/
+.nome{
+    padding-left: 82px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(35, 146, 243);
+}
+nav a h3:hover{
+    color: #18f888;
+    text-decoration: underline;
+    text-decoration: none;
+}
+#sobreHov{
+    color: rgb(35, 146, 243);
+}
+#sobreHov:hover {
+    color: #18f888;
+}
+#collapsibleNavbar{
+    padding-right: 82px;
+    margin: 4px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#menu{
+    color: rgb(255, 255, 255);  
+   
+}
+
+@media screen and (max-width: 1200px){
+    .nome{
+       padding-left: 6px;
+       font-size: auto;
+       text-align: center;
+       font-size: 24px;
+       
+    }
+}
+@media screen and (max-width: 1200px){
+    #navResponsive{
+        width: 100%;
+    }
+    
+}
+
+/*tudo que dor dentro da header começa aqui */
+#minhaFoto{
+    width: 240px;
+    border-radius: 134px; 
+}
+#quemSouEu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+#descricao{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 25px;
+}
+@media screen and (max-width:1200px) {
+    #quemSouEu{
+        font-size: auto;
+        text-align: center;
+        width: auto;
+        
+    }
+    
+}
+@media screen  and (max-width:1200px){
+    #descricao{
+        width: 100%;
+        text-align: center;
+        font-size: 18px; 
+        
+    }
+    
+}
+/*modal*/
+#img1{
+    width: 350px;
+    height: 184px;
+}
+
+#img2{
+    height: 350px;
+    height: 184px;
+}
+#img3{
+    width: 350px;
+    height: 184px;
+
+}
+.portfolio .portfolio-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color:rgb(80, 162, 235) ;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption:hover {
+    opacity: 1;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+    font-size: 1.5rem;
+  }
+  
+
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  @media screen and (max-width:1200px) {
+    #modalResponsive{
+        width: auto;
+      }
+    
+}
+/*section messagem*/
+.textoMessagem{
+    margin-left: 28px;
+}
+
+
+/*tudo sobre input*/
+.input-padrao{
+    display:block;
+    margin: 0 0 15px;
+    padding:  5px 15px;
+    width: 90%;
+}
+#botão:hover{
+    transform: scale(1.1);
+    color: #f81818;
+}
+
+#rodape{
+    background-color:rgba(10, 10, 10, 0.856);
+}
+@media screen and (max-width:1200px){
+    #mapa{
+        width: 50px;
+        height: 20px;
+        text-align: center;
+    }
+    
+}
